@@ -1,1 +1,8 @@
-
+zone "l1m10-1.lan" {
+        type master;
+        file "/etc/bind/db.l1m10-1.lan";
+};
+zone "40.15.168.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/db.40.15.168.192";
+};
